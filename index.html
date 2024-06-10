@@ -14,11 +14,11 @@
 
     <style>
         .right-pane {
-            background-image: url('rocket.jpg');
+            background-image: url('bg.jpg');
             /* background-repeat: repeat; */
             height: 100vh;
             background-size: cover;
-            opacity: 0.9;
+            /* opacity: 0.9; */
         }
 
         .bd-placeholder-img {
@@ -59,13 +59,13 @@
         }
 
         .left-pane {
-            background-image: url('rt-bg.jpg');
+            background-image: url('bg.webp');
             background-size: cover;
         }
 
         .inner-left-pane {
             height: 100vh;
-            background-color: rgba(0, 0, 0, .7);
+            background-color: rgba(0, 0, 0, 0.6);
             color: #fff;
         }
 
@@ -84,14 +84,14 @@
         }
 
         .logo {
-            width: 30%;
+            width: 20%;
             margin-left: 3rem !important;
         }
 
         @media (max-width: 767.98px) {
             .left-pane h1 {
                 font-size: 40px !important;
-                margin-top: 110px;
+                margin-top: 90px;
                 padding: 15px !important;
                 text-align: center;
             }
@@ -115,20 +115,26 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-8 left-pane p-0">
+                <div class="col-md-12 left-pane p-0">
                     <div class='inner-left-pane'>
                         <img class="d-block mb-4 logo" src="logo.jpg" alt="">
 
-                        <h1 class="display-2 fwbold lh-1">Where the freezer aisle meets innovation
-                        </h1>
+                        <div class="container text-center">
+                            <div class="row justify-content-md-center">
+                                <div class="col-md-9 col-sm-12">
+                                    <h1 class="display-2 fw-bold lh-1">Where the freezer aisle meets innovation</h1>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="bottom-text text-white text-center">
                             <p class="lead text-center align-items-center">Currently on ice...freezing...</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 right-pane d-none d-sm-block">
+                <!-- <div class="col-md-4 right-pane d-none d-sm-block">
 
-                </div>
+                </div> -->
             </div>
         </div>
     </main>
